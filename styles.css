@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #96939B
+}
+
+h1 {
+    color: #fff;
+    font-family: Arial, Helvetica;
+    font-size: 55px;
+    margin: 20px 20px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 20px;
+    padding: 0 30px;
+}
+
+#dataList {
+    display: flex;
+    flex-flow: wrap row;
+}
+
+.wrapper {
+    flex-basis: 32.333333%;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #BFBFBF;
+}
+
+img {
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #fff
+}
+
+.btn {
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    border: none;
+    padding: 15px;
+    margin: 6px;
+}
+
+.btn-delete {
+    background-color: #f00;
+    color: #fff;
+}
+
+.content {
+    margin: 10px 0;
+    text-align: left;
+    font-size: 16px
+}
+
+#name,
+#content {
+    padding: 5px;
+    width: 100%;
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    border: none;
+    padding: 15px;
+    margin: 6px;
+}
+
+.btn-save {
+    background-color: rgb(58, 209, 78);
+    color: #fff;
+}
+
+.btn-edit {
+    background-color: #564256;
+    color: #fff;
+}
+
+.edite {
+    margin-top: 100px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    padding: 57px 46px;
+    background-color: #BFBFBF;
+}
